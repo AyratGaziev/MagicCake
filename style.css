@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Madelyn';
+    src:  url('Madelyn.otf') format('opentype');
+    margin: 0;
+  }
+
+body {    
+    background-color: #E52C2A;
+    margin: 0;
+    padding: 0;
+}
+.content {
+    background-color: #FFD8CE;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1200px;
+    height: 870px;
+    margin: 20px auto; 
+
+    
+}
+.title {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: 'Madelyn';
+    font-size: 100px;
+    line-height: 100px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.cake {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cake-img {
+    display: block;
+}
+.cake-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.cake-item:hover {
+    color: #E52C2A;
+}
+.cake-name {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Madelyn';
+    font-size: 100px;
+    line-height: 100px;
+
+}
+.cake .hide {
+    display: none;
+}
+label {
+    font-family: 'Madelyn';
+    font-size: 100px;
+    line-height: 100px;
+}
+.weight-wrap-inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 920px;  
+    align-items: center;  
+    margin-top: 50px;
+}
+input {
+    width: 168px;
+    height: 66px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Madelyn';
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+    
+}
+.weight-name {
+    font-family: 'Madelyn';
+    font-size: 70px;
+    line-height: 70px;
+}
+.next-btn {
+    width: 168px;
+    height: 66px;
+    background: #E52C2A;
+    border-radius: 20px;
+    border: none;
+    font-family: Madelyn;
+    text-align: center;
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 65px;
+    cursor: pointer;
+}
+.weight-wrap .hide {
+    display: none;
+}
+.weightAlert .hide {
+    display: none;
+}
+.alert-text {
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-start;
+    color:#E52C2A;
+    font-family: Madelyn;
+    text-align: center;
+    font-size: 32px;
+    line-height: 25px;
+    left: -400px;
+    position: absolute;
+    z-index: 500;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.x-btn {
+    cursor: pointer;    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    width: 100%;
+    margin-right: 20px;
+    margin-bottom: 35px;
+    margin-top: 0px;
+}
