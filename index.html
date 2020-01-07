@@ -31,7 +31,7 @@
                 <label for="weight">Вес торта</label>
                 <input id="weight" name="weight" type="text">
                 <div class="weight-name">грамм</div>
-                <button class="next-btn">Далее</button>
+                <button id="next-btn-weight" class="next-btn">Далее</button>
             </div>            
         </div>
 
@@ -46,8 +46,128 @@
 
         <!-- Cake filling -->
 
-        
+        <div class="cake-filling-wrapper">
+            <div class="cake-filling hide">
+                <div class="cake-filling-inner">
+                    <!-- <div class="fruit">
+                        <div class="fruit-inner-wrap">
+                            <img class="fruit-inner" src="img/sweet.png" alt="">
+                            <input class="checkbox" id="sweet" type="checkbox">
+                        </div>
+                        <div class="fruit-inner-wrap">
+                            <img class="fruit-inner" src="img/marshmallows.png" alt="">
+                            <input class="checkbox" id="marshmallows" type="checkbox">
+                        </div>
+                        <div class="fruit-inner-wrap">
+                            <img class="fruit-inner-wide" src="img/Strawberry.png" alt="">
+                            <input class="checkbox" id="strawberry" type="checkbox">
+                        </div>
+                        <div class="fruit-inner-wrap">
+                            <img class="fruit-inner-wide" src="img/raspberries.png" alt="">
+                            <input class="checkbox" id="raspberries" type="checkbox">
+                        </div>
+                    </div> -->
 
+                    <div class="cake-order hide">
+                        <div class="order-sum">Ваш заказ на сумму:</div>
+                        <div class="name-wrap">
+                            <label for="order-name">Ваше имя:</label>
+                            <input class="order-name" type="text">
+                        </div>
+                        <div class="tel-wrap">
+                            <label for="order-tel">Ваш телефон:</label>
+                            <input class="order-tel" type="text">
+                        </div>
+                    </div>
+
+                    <div class="fruit">
+                        
+                        <div class="fruit-inner-wrap-img">
+                            <img class="fruit-inner" src="img/sweet.png" alt="">
+                            <img class="fruit-inner" src="img/marshmallows.png" alt="">
+                            <img class="fruit-inner wide" src="img/Strawberry.png" alt="">
+                            <img class="fruit-inner wide" src="img/raspberries.png" alt="">
+                            
+                            
+                        </div>
+
+                        <div class="fruit-inner-wrap">
+                            <input class="checkbox" id="sweet" type="checkbox">
+                            <input class="checkbox" id="marshmallows" type="checkbox">
+                            <input class="checkbox" id="strawberry" type="checkbox">
+                            <input class="checkbox" id="raspberries" type="checkbox">
+                        </div>
+                       
+                    </div>
+
+                    <div class="layers">
+                        <div class="layers-item  sweet hide">
+                            <img class="fruit-inner" src="img/sweet.png" alt="">
+                            <img class="fruit-inner" src="img/sweet.png" alt="">
+                        </div>
+                        <div class="layers-item marshmallows hide">
+                            <img class="fruit-inner" src="img/marshmallows.png" alt="">
+                            <img class="fruit-inner" src="img/marshmallows.png" alt="">
+                            <img class="fruit-inner" src="img/marshmallows.png" alt="">
+                        </div>
+                        <div class="layers-item strawberry hide">
+                            <img class="fruit-inner wide" src="img/Strawberry.png" alt="">
+                            <img class="fruit-inner wide" src="img/Strawberry.png" alt="">
+                            <img class="fruit-inner wide" src="img/Strawberry.png" alt="">
+                            <img class="fruit-inner wide" src="img/Strawberry.png" alt="">
+                        </div>
+                        <div class="layers-item raspberries hide">
+                            <img class="fruit-inner wide" src="img/raspberries.png" alt="">
+                            <img class="fruit-inner wide" src="img/raspberries.png" alt="">
+                        </div>
+                        <div class="layers-color-fat"></div>
+                        <div class="layers-color-thin"></div>
+                        <div class="layers-color-fat"></div>
+                        <div class="layers-color-thin"></div>
+                        <div class="layers-color-fat"></div>
+                    </div>
+                    <div class="filling">
+                        <div class="filling-fat-wrap">
+                            <div class="checkbox-wrap-fat">
+                                <input id="filling-fat1" class="checkbox-right-fat" type="radio" name="fat">    
+                                <div class="filling-color" id="filling-color1"></div>   
+                                <label class="checkbox-right-label" for="filling-fat1">Школадный бисквит</label>                 
+                            </div>
+                            <div class="checkbox-wrap-fat">
+                                <input id="filling-fat2" class="checkbox-right-fat" type="radio" name="fat"> 
+                                <div class="filling-color" id="filling-color2"></div>   
+                                <label class="checkbox-right-label" for="filling-fat2">Классический бисквит</label>
+                            </div>
+                        </div>
+                        <div class="filling-thin-wrap">
+                            <div class="checkbox-wrap-thin">
+                                <input id="filling-thin1" class="checkbox-right-thin" type="radio" name="thin">   
+                                <div class="filling-color" id="filling-color3"></div>   
+                                <label class="checkbox-right-label" for="filling-thin1">Ягодный мусс</label>                 
+                            </div>
+                            <div class="checkbox-wrap-thin">
+                                <input id="filling-thin2" class="checkbox-right-thin" type="radio" name="thin">  
+                                <div class="filling-color" id="filling-color4"></div>        
+                                <label class="checkbox-right-label" for="filling-thin2">Ягодное кули</label>           
+                            </div>
+                        </div>
+                    </div>                    
+                </div> 
+
+                <div class="next">
+                    <div class="next-descr">Выберите начинку и украшения </div>
+                    <button id="next-btn-filling" class="next-btn">Далее</button>
+                </div>
+
+                <div class="submit-cake-wrap hide">
+                    <button id="submit-btn-cake" class="next-btn">Закзать</button>
+                </div>
+
+
+            </div>                
+        </div>
+
+        
 
     </div>
 
